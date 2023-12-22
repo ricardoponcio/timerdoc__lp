@@ -1,0 +1,75 @@
+.main-display-wrap {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    padding: 16px 15%;
+    background-color: black;
+}
+
+.main-display-wrap::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: url('/public/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.main-display-wrap .main-display-content p {
+    margin: 0;
+}
+
+.main-display-wrap .main-display-content .pre-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main-display-wrap .main-display-content .title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.main-display-wrap .main-display-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-display-wrap .main-display-content .options {
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .main-display-wrap .main-display-content .options {
+        flex-direction: column;
+    }
+
+    .main-display-wrap .main-display-content {
+        gap: 24px;
+    }
+
+    .main-display-wrap .main-display-content .pre-title {
+        font-size: 1.0rem;
+        text-align: center;
+    }
+
+    .main-display-wrap .main-display-content .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+}

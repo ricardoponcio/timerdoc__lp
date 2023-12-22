@@ -1,0 +1,75 @@
+.services {
+    position: relative;
+    width: 100%;
+    padding: 48px 15%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    gap: 32px;
+}
+
+.services .title {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.services .subtitle {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.services .services-bubble {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.services .services-bubble .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.services .services-bubble .service .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.services .services-bubble .service .infos p {
+    margin: 0;
+    text-align: center;
+}
+
+.services .services-bubble .service .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.services .services-bubble .service .logo img {
+    max-width: 80px;
+    background-color: coral;
+    border-radius: 50%;
+    padding: 24px;
+}
+
+.services .services-bubble .service .infos .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.services .services-bubble .service .infos .description {
+    font-size: 1.0rem;
+    color: rgb(108, 117, 125);
+}
+
+@media (max-width: 768px) {
+    .services .services-bubble {
+        flex-direction: column;
+    }
+}

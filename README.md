@@ -84,7 +84,7 @@ timerdoc__lp/
 - `npm run build` – Build the app for production
 - `npm test` – Run tests
 
-See all scripts in [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__lp/package.json).
+See all scripts in [package.json](./package.json).
 
 ---
 
@@ -113,4 +113,4 @@ Pull requests are welcome! Please lint and test your code before submitting.
 
 ## License
 
-This project is **UNLICENSED**. See [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__lp/package.json) for details.
+This project is **UNLICENSED**. See [package.json](./package.json) for details.

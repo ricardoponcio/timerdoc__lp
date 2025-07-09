@@ -114,3 +114,7 @@ Pull requests are welcome! Please lint and test your code before submitting.
 ## License
 
 This project is **UNLICENSED**. See [package.json](./package.json) for details.
+
+## References
+
+- [Main Project](https://github.com/ricardoponcio/TimerDoc)

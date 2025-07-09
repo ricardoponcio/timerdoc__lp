@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# TimerDoc Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TimerDoc is a Document Management System designed to help users register documents, track deadlines, and manage responsibilities. The platform allows users to associate each document with its required completion period, the client requesting the document, and the person responsible for its delivery. This ensures efficient document tracking, accountability, and timely completion for organizations and teams.
 
-## Available Scripts
+This repository contains the landing page for the TimerDoc platform, built with React and styled for a modern, responsive web experience.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Scripts](#scripts)
+- [Configuration](#configuration)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Responsive landing page built with React
+- Modern design and user experience
+- Highlights TimerDoc's main features and team
+- Contact form for inquiries
+- Sectioned layout: Features, About, Team, Contact
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+timerdoc__lp/
+├── public/
+│   ├── bg.jpg
+│   ├── contato.jpg
+│   ├── TD-ACRONYM-V1-FIT-WO-BG.png
+│   ├── TD-FULL-V1-FIT-WO-BG.png
+│   ├── favicon.ico
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── _components/
+│   │   ├── about/
+│   │   ├── button/
+│   │   ├── contact/
+│   │   ├── input/
+│   │   ├── main-display/
+│   │   ├── services/
+│   │   ├── team/
+│   │   └── topbar/
+│   ├── _pages/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── ...
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Start the development server:**
+   ```sh
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Open your browser:**
+   - Visit [http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `npm start` – Start the development server
+- `npm run build` – Build the app for production
+- `npm test` – Run tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+See all scripts in [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__lp/package.json).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Configuration
 
-### Analyzing the Bundle Size
+- Static assets and configuration files are in the `public/` folder.
+- No environment variables are required for the landing page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Tests are written with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/).
+- Run all tests:
+  ```sh
+  npm test
+  ```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Pull requests are welcome! Please lint and test your code before submitting.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is **UNLICENSED**. See [package.json](c:/DEV/Pessoal/Timerdoc/timerdoc__lp/package.json) for details.
